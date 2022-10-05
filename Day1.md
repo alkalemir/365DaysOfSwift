@@ -1,6 +1,6 @@
-#Day 1
+# Day 1
 
-##Subjects
+## Subjects
 
 - variables
 - strings and integers
