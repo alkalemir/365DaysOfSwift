@@ -11,10 +11,12 @@
 - Enum associated values
 - Enum raw values
 
+## Notes
 
 1. Swift arrays start with 0 index.
 2. We can initialize our array with [1, 2, 3] syntax.
 3. We also can initialize our array with Array<Type>() syntax. This will be created empty collection. 
+    
     <pre><code>
         [String: String]() // for dict
         [Int]() // for array
@@ -43,18 +45,22 @@
 20. We can provide a default value if data is missing. The syntax is "dict["no-key", default = "unknown"]
 21. Enumerations defines a related groups of values.
 22. In programming "stringly typed" values not preferred. Instead of we must use enums. 
+
     <pre><code>
         let f1 = "failure"  
+        
         enum Result {
             case failure
             case success
         }
+        
         let f2 = Result.failure
     </code></pre>
         
     This makes sure we don't misspell the string.
     
 23. We can pass argument to enum cases. That's called enum associated values.
+    <pre><code>
         enum Activity {
             case bored
             case running(destination: String)
@@ -63,7 +69,11 @@
         }
         
         let singing = Activity.singing(volume: 10)
+    </code></pre>
+
+
 24. We can use enum raw values if we write after enum names  this ": Int". Swift automatically counts from zero for our case.
+
     <pre><code>
         enum Planet: Int {
             case mercury
