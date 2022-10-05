@@ -10,6 +10,8 @@
 - constants
 - type annotations
 
+## Notes
+
 1. Swift is type safe language.
 2. You can use underscore(_) for big numbers.
 3. You can not change the type of variable.
