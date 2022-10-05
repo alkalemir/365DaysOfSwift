@@ -1,6 +1,6 @@
-#Day 1
+# Day 1
 
-##Subjects
+## Subjects
 
 - variables
 - strings and integers
@@ -9,6 +9,8 @@
 - string interpolation
 - constants
 - type annotations
+
+## Notes
 
 1. Swift is type safe language.
 2. You can use underscore(_) for big numbers.
