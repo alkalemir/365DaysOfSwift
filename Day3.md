@@ -19,7 +19,9 @@
 1. You can plus operator with arrays, string, int. This is operator overloading.
 2. If both sides of divider(/) operator is int the outcome result is will be int.
 3. Compound assignment operators is shorthand syntax for 
-    str = str + "bla bla" // str += "bla bla"
+    <pre><code>
+        str = str + "bla bla" // str += "bla bla"
+    </code></pre>
 4. Compound operators returns boolean value.
 5. We can compare to string according to place of alphabet.
 6. Swift has a short circuit behavior for logical operators.
